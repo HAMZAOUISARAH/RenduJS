@@ -37,7 +37,7 @@ fetch(url)
 
  // AVIS CLIENTS
 const clients = document.getElementById("clients");
-
+const aviscontainer=document.getElementById("avis")
    data.clients.forEach(c => {
     const div = document.createElement("div");
     div.className="client";
@@ -51,13 +51,5 @@ const clients = document.getElementById("clients");
 
    });
    
-//    const avis= document.getElementById("avis");
-//    data.commentaire.forEach(a => {
-//     const div = document.createElement("avis");
-//     div.className="avis";
-//     div.innerHTML=`
-//      `;
-//     avis.appendChild(div)
-//    });
    
 })
